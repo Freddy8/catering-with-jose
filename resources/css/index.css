@@ -1,0 +1,170 @@
+
+body {
+  margin:0;
+  padding: 0;
+  background-color: #EAF2F8;
+
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  margin: 1vw;
+  padding: 1vw;
+}
+.intro {
+  height: 165vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.logo {
+  margin: 2vw;
+}
+
+
+#menu_button button{
+  border: 1vw dashed #F02812;
+  outline: none;
+  margin: 1vw;
+  width: 33vw;
+  height: 12vw;
+  background: rgba(76, 175, 80, 0);
+}
+
+#button_text {
+  color: #F02812;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Alex Brush', cursive;
+  font-size: 6.5vw;
+  text-decoration: none;
+}
+
+nav a {
+  width: 100%;
+  padding: 2.1vw;
+  font-size: 7vw;
+  color: #F02812;
+  font-family: 'Alex Brush', cursive;
+  text-decoration: none;
+}
+
+.food{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.square_left{
+  background-color: white;
+  width: 100%;
+  height: 30vw;
+}
+
+.square_right{
+  background-color: gray;
+  width: 100%;
+  height: 30vw;
+}
+
+.about{
+  margin-top: 5vw;
+  width:100%;
+  background-color: darkgray;
+  height: 20vw;
+}
+
+.contact{
+  margin-top: 5vw;
+  width:100%;
+  background-color: darkgray;
+  height: 20vw;
+}
+
+.menu_content{
+  margin-top: 8vw;
+  width:100%;
+  background-color: darkgray;
+  height: 20vw;
+}
+
+/* formspree */
+.booking_form {
+color: #F02812;
+font-family: 'Alex Brush', cursive;
+font-size: 5vw;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 100%;
+}
+
+.booking_form input, textarea, button{
+display: block;
+margin: 2vw;
+width: 80vw;
+height: 7vw;
+}
+
+/* For desktop */
+
+@media only screen and (min-width: 760px) {
+
+  .intro {
+    height: 55vw;
+  }
+
+  nav a {
+    padding: 1vw;
+    font-size: 3vw;
+    color: #F02812;
+    font-family: 'Alex Brush', cursive;
+    text-decoration: none;
+  }
+
+  .food{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+  }
+
+  .square_left{
+    background-color: white;
+    width: 50%;
+    height: 30vw;
+  }
+
+  .square_right{
+    background-color: gray;
+    width: 50%;
+    height: 30vw;
+  }
+
+  #menu_button button{
+    border: .3vw dashed #F02812;
+    margin: .5vw;
+    width: 14vw;
+    height: 4.5vw;
+  }
+
+  #button_text {
+    font-size: 2.8vw;
+  }
+
+  .booking_form {
+    font-size: 2.5vw;
+  }
+
+  .booking_form input, textarea, button{
+  margin: 2vw;
+  width: 60vw;
+  height: 3.5vw;
+  }
+
+}
