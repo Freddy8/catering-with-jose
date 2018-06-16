@@ -50,6 +50,12 @@ nav a {
   text-decoration: none;
 }
 
+.logo img {
+  align-items: center;
+  width: 80vw;
+  height: 60vw;
+}
+
 #food{
   display: flex;
   flex-direction:column;
@@ -64,6 +70,10 @@ nav a {
   background-color: #F02812;
   width: 100%;
   padding-top: .6%;
+}
+
+.square_left img {
+  height: 20vw;
 }
 
 
@@ -92,7 +102,6 @@ nav a {
 
   border-radius: 50%;
   border: 2px solid #F02812;
-
   width:100%;
 }
 
@@ -100,14 +109,18 @@ nav a {
 
 }
 
+.menu_content{
+  margin-top: 8vw;
+  width:100%;
+  background-color: darkgray;
+  height: 20vw;
+}
+
 /*  footer   */
 .contact{
   margin-top: 5vw;
   width: 100%;
-
-
 }
-
 
 .bottom {
  text-align: center;
@@ -115,6 +128,7 @@ nav a {
   margin-right: 20px;
   margin-bottom: 15px;
 }
+
 .Icon8 {
  color: black;
  font-family: 'Alex Brush', cursive;
@@ -127,12 +141,7 @@ nav a {
     margin:2px;
   }
 
-.menu_content{
-  margin-top: 8vw;
-  width:100%;
-  background-color: darkgray;
-  height: 20vw;
-}
+
 
 /* formspree */
 .booking_form {
@@ -153,11 +162,7 @@ width: 80vw;
 height: 7vw;
 }
 
-.logo img {
-  align-items: center;
-  width: 80vw;
-  height: 60vw;
-}
+
 
 
 /* lightbox */
@@ -177,6 +182,10 @@ height: 7vw;
  padding: .3%
 }
 
+.row img {
+  height: 40vw;
+}
+
 .row-1 {
   display: flex;
   flex-direction: row;
@@ -192,12 +201,12 @@ height: 7vw;
 }
 
 .column {
-  float: left;
-  width: 25%;
+float: left;
+width:25%;
 }
 
 .demo {
-  height: auto;
+height: ;
 }
 
 /* The Modal (background) */
@@ -293,7 +302,7 @@ height: 7vw;
   color: white;
 }
 
-img.demo {
+img .demo {
   opacity: 0.6;
 }
 
