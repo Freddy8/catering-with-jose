@@ -13,7 +13,7 @@ header {
 }
 
 .intro {
-  height: 36em;
+  height: 180vw;
   width: 100%;
   display: flex;
   align-items: center;
@@ -26,8 +26,8 @@ header {
   border: .9vw dashed #F02812;
   outline: none;
   margin: 1vw;
-  width: 33vw;
-  height: 12vw;
+  width: auto;
+  height: auto;
   background: rgba(76, 175, 80, 0);
 }
 
@@ -37,7 +37,7 @@ header {
   align-items: center;
   justify-content: center;
   font-family: 'Alex Brush', cursive;
-  font-size: 6.5vw;
+  font-size: 10vw;
   text-decoration: none;
 }
 
@@ -52,8 +52,8 @@ nav a {
 
 .logo img {
   align-items: center;
-  width: 22em;
-  height: 22em;
+  width: 90vw;
+  height: 90vw;
 }
 
 #food{
