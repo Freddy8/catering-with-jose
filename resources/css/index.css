@@ -3,7 +3,6 @@ body {
   margin:0;
   padding: 0;
   background-color: #EAF2F8;
-
   width: 100%;
   height: 100%;
 }
@@ -12,22 +11,19 @@ header {
   margin: 1vw;
   padding: 1vw;
 }
+
 .intro {
-  height: 165vw;
+  height: 130vw;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction:column;
+  margin-bottom: 5vw;
 }
-
-.logo {
-  margin: 2vw;
-}
-
 
 #menu_button button{
-  border: 1vw dashed #F02812;
+  border: .9vw dashed #F02812;
   outline: none;
   margin: 1vw;
   width: 33vw;
@@ -54,37 +50,82 @@ nav a {
   text-decoration: none;
 }
 
-.food{
+#food{
   display: flex;
   flex-direction:column;
   align-items: center;
+
 }
 
 .square_left{
-  background-color: white;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  background-color: #F02812;
   width: 100%;
-  height: 30vw;
+  padding-top: .6%;
 }
 
+
 .square_right{
-  background-color: gray;
+  color: #F02812;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Alex Brush', cursive;
+  font-size: 6.5vw;
   width: 100%;
-  height: 30vw;
+  height: auto;
 }
 
 .about{
   margin-top: 5vw;
-  width:100%;
-  background-color: darkgray;
-  height: 20vw;
+  padding: 5vw;
+  margin-bottom: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+.about-img {
+
+  border-radius: 50%;
+  border: 2px solid #F02812;
+
+  width:100%;
+}
+
+.about-content {
+
+}
+
+/*  footer   */
 .contact{
   margin-top: 5vw;
-  width:100%;
-  background-color: darkgray;
-  height: 20vw;
+  width: 100%;
+
+
 }
+
+
+.bottom {
+ text-align: center;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+.Icon8 {
+ color: black;
+ font-family: 'Alex Brush', cursive;
+
+}
+
+.social-media img{
+    width:64px;
+    height:64px:
+    margin:2px;
+  }
 
 .menu_content{
   margin-top: 8vw;
@@ -112,6 +153,163 @@ width: 80vw;
 height: 7vw;
 }
 
+.logo img {
+  align-items: center;
+  width: 80vw;
+  height: 60vw;
+}
+
+
+/* lightbox */
+.row > .column {
+  padding: .3%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+
+.row {
+ padding: .3%
+}
+
+.row-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.demo {
+  height: auto;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* For desktop */
 
 @media only screen and (min-width: 760px) {
@@ -128,33 +326,49 @@ height: 7vw;
     text-decoration: none;
   }
 
-  .food{
+  #food{
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
     align-items: center;
+    width: 100%;
+  }
+
+  .row-1 {
+    float: left;
+    width: 50%;
+  }
+
+  .row-2 {
+    float: left;
+    width: 50%;
   }
 
   .square_left{
-    background-color: white;
-    width: 50%;
-    height: 30vw;
+    background-color: #F02812;
+    padding-top: .3%;
+  }
+
+  .square_left img {
+    height: 28vw;
   }
 
   .square_right{
-    background-color: gray;
-    width: 50%;
-    height: 30vw;
+    font-size: 5vw;
+    width: 100%;
+
+    text-align: center;
+    display: flex;
   }
 
   #menu_button button{
-    border: .3vw dashed #F02812;
-    margin: .5vw;
-    width: 14vw;
-    height: 4.5vw;
+    border: .5vw dashed #F02812;
+    margin: 1vw;
+    width: 22vw;
+    height: 7vw;
   }
 
   #button_text {
-    font-size: 2.8vw;
+    font-size: 4vw;
   }
 
   .booking_form {
@@ -166,5 +380,19 @@ height: 7vw;
   width: 60vw;
   height: 3.5vw;
   }
+
+.bottom {
+  margin-right: 25px;
+  margin-bottom: 15px;
+}
+  .logo img {
+    width: 58vw;
+    height: 40vw;
+  }
+
+  .social-media img{
+      width:80px;
+      height:80px:
+    }
 
 }
