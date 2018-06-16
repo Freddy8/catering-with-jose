@@ -206,7 +206,7 @@ width:25%;
 }
 
 .demo {
-height: ;
+height: auto;
 }
 
 /* The Modal (background) */
@@ -299,7 +299,7 @@ height: ;
   text-align: center;
   background-color: black;
   padding: 2px 16px;
-  color: white;
+  color: black;
 }
 
 img .demo {
@@ -316,7 +316,7 @@ img.hover-shadow {
 }
 
 .hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* For desktop */
