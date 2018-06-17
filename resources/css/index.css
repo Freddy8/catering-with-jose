@@ -58,19 +58,19 @@ nav a {
 }
 
 .phone {
-  padding: none;
+  position: fixed;
+  padding-right: 2px;
   margin: none;
   overflow: hidden;
   width: 100%;
-
+  z-index: 0;
 }
 
 .phone img{
-z-index: 0;
 float: right;
-width: 4vw;
-height: 4vw;
-padding: none;
+width: 5vw;
+height: 5vw;
+padding-right: 2.5vw;
 margin: none;
 }
 
