@@ -39,6 +39,7 @@ header {
   font-family: 'Alex Brush', cursive;
   font-size: 10vw;
   text-decoration: none;
+  z-index: 1;
 }
 
 .navi {
@@ -49,15 +50,11 @@ header {
 
 nav a {
   width: 100%;
-  padding-right: 2.6vw;
-  font-size: 7.8vw;
+  padding-right: 4vw;
+  font-size: 10vw;
   color: #F02812;
   font-family: 'Alex Brush', cursive;
   text-decoration: none;
-}
-
-.end a{
-  padding: 0;
 }
 
 .phone {
@@ -70,8 +67,8 @@ nav a {
 .phone img{
 z-index: 0;
 float: right;
-width: 6.5vw;
-height: 7vw;
+width: 9vw;
+height: 9vw;
 margin: 0;
 }
 
@@ -79,6 +76,7 @@ margin: 0;
   align-items: center;
   width: 90vw;
   height: 90vw;
+  z-index: 0;
 }
 
 .food{
@@ -356,16 +354,32 @@ img.hover-shadow {
 
 @media only screen and (min-width: 760px) {
 
+
   .intro {
-    height: 55vw;
+    display: flex;
+    align-items: center;
+    height: 75vw;
+    width: 100%;
+
+  }
+
+  .navi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 
   nav a {
-    padding: 1vw;
-    font-size: 3vw;
+    align-items: center;
+    font-size: 5vw;
     color: #F02812;
     font-family: 'Alex Brush', cursive;
     text-decoration: none;
+  }
+
+  .phone {
+    visibility: hidden;
   }
 
   #food{
@@ -404,9 +418,9 @@ img.hover-shadow {
 
   #menu_button button{
     border: .5vw dashed #F02812;
-    margin: 1vw;
-    width: 22vw;
-    height: 7vw;
+    width: auto;
+    height: auto;
+    margin-bottom: 10vw;
   }
 
   #button_text {
@@ -427,9 +441,23 @@ img.hover-shadow {
   margin-right: 25px;
   margin-bottom: 15px;
 }
+
+.logo{
+  display: flex;
+  align-items: center;
+  height: auto;
+  margin-top: 22vw;
+  padding: 0;
+}
   .logo img {
-    width: 58vw;
-    height: 40vw;
+
+    display: flex;
+    align-items: center;
+    width: 55vw;
+    height: 65vw;
+    margin:0;
+    paddin:0;
+    overflow: hidden;
   }
 
   .social-media img{
