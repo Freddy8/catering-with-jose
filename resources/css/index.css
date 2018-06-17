@@ -41,13 +41,37 @@ header {
   text-decoration: none;
 }
 
+
+
 nav a {
   width: 100%;
-  padding: 2.1vw;
-  font-size: 7vw;
+  padding-right: 2.6vw;
+  font-size: 7.8vw;
   color: #F02812;
   font-family: 'Alex Brush', cursive;
   text-decoration: none;
+  z-index: 1;
+}
+
+.end a{
+  padding: 0;
+}
+
+.phone {
+  padding: none;
+  margin: none;
+  overflow: hidden;
+  width: 100%;
+
+}
+
+.phone img{
+z-index: 0;
+float: right;
+width: 4vw;
+height: 4vw;
+padding: none;
+margin: none;
 }
 
 .logo img {
