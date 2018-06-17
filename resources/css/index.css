@@ -56,21 +56,27 @@ nav a {
   height: 90vw;
 }
 
-#food{
-
+.food{
+  color: #F02812;
   display: flex;
   flex-direction:column;
   align-items: center;
+  font-family: 'Alex Brush', cursive;
+  width: 100%;
+}
 
+.wide img{
+  width:100%;
+  height: auto;
 }
 
 .square_left{
+  width: 100%;
   display: flex;
-  flex-direction:row;
+  flex-direction:column;
   align-items: center;
   background-color: #F02812;
-  width: 100%;
-  padding-top: .6%;
+
 }
 
 .square_left img {
