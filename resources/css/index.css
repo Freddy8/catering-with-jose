@@ -41,7 +41,9 @@ header {
   text-decoration: none;
 }
 
-
+.navi {
+  z-index: 1;
+}
 
 nav a {
   width: 100%;
@@ -50,7 +52,6 @@ nav a {
   color: #F02812;
   font-family: 'Alex Brush', cursive;
   text-decoration: none;
-  z-index: 1;
 }
 
 .end a{
@@ -60,18 +61,18 @@ nav a {
 .phone {
   position: fixed;
   padding-right: 2px;
-  margin: none;
   overflow: hidden;
   width: 100%;
-  z-index: 0;
+
 }
 
 .phone img{
+  z-index: 0;
 float: right;
 width: 5vw;
 height: 5vw;
 padding-right: 2.5vw;
-margin: none;
+margin: 0;
 }
 
 .logo img {
