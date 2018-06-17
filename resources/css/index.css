@@ -44,6 +44,7 @@ header {
 .navi {
   z-index: 1;
   padding-top: 3vw;
+  text-align: center;
 }
 
 nav a {
