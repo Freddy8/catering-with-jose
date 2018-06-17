@@ -8,8 +8,8 @@ body {
 }
 
 header {
-  margin: 1vw;
-  padding: 1vw;
+
+
 }
 
 .intro {
@@ -43,6 +43,7 @@ header {
 
 .navi {
   z-index: 1;
+  padding-top: 3vw;
 }
 
 nav a {
@@ -60,18 +61,16 @@ nav a {
 
 .phone {
   position: fixed;
-  padding-right: 2px;
   overflow: hidden;
   width: 100%;
 
 }
 
 .phone img{
-  z-index: 0;
+z-index: 0;
 float: right;
-width: 5vw;
-height: 5vw;
-padding-right: 2.5vw;
+width: 6.5vw;
+height: 7vw;
 margin: 0;
 }
 
